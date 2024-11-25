@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/logo_login.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-container {
+    background-color: rgb(198, 229, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px  #1b2956;
+    width: 300px;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #15013f;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #0e1141;
+    display: flex;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #595a71;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #000728;
+    outline: none;
+}
+
+button {
+    background-color: #0400ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0011ad;
+}
