@@ -21,8 +21,8 @@
                 <td>R$ {{ produto.preco }}</td>
                 <td>{{ produto.categoria.nome }}</td>
                 <td class="acao">
-                    <a href="{% url 'produto_update' produto.pk %}" class="btn">Editar</a>
-                    <a href="{% url 'produto_delete' produto.pk %}" class="btnv">Excluir</a>
+                    <a class="btn" href="{% url 'produto_update' produto.pk %}" class="btn">Editar</a>
+                    <a class="btnv" href="{% url 'produto_delete' produto.pk %}" class="btnv">Excluir</a>
                 </td>
             </tr>
             {% empty %}

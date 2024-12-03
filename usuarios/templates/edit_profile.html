@@ -7,9 +7,9 @@
    
 <form method="post">
     {% csrf_token %}
-    {{ form.as_p }}  <!-- Exibe o formulário -->
-    <button type="submit">Salvar Alterações</button>
+    {{ form.as_p }} 
+    <button class="btng" type="submit">Salvar Alterações</button>
 </form>
 
-<a href="{% url 'produto_list' %}">Voltar para a página inicial</a>
+<a class="btn" href="{% url 'produto_list' %}">Voltar para a página inicial</a>
 {% endblock %}
